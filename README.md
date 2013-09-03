@@ -5,7 +5,7 @@ Very simple, client side validation helper. Works with any existing javascript f
 
 Following methods are available:
 
-* Validation.IsNullOrWhitespace(arg) - is argument null or undefined or contains only white characters
+* Validation.IsNullOrWhiteSpace(arg) - is argument null or undefined or contains only white characters
 * Validation.IsNull(arg) - is argument null or undefined
 * Validation.IsMinLength(arg, minLength) - is argument of length greater than minimal value
 * Validation.IsMaxLength(arg, maxLength) - is argument of length smaller than maximal value
