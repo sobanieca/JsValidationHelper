@@ -123,7 +123,7 @@ function Validation()
 	
     this.IsInteger = function(val)
     {
-        if(val == null || val == "" || val == undefined || isNaN(val))
+        if(val == null || val == undefined || isNaN(val))
             return false;
         if(typeof(val) == "number")
         {
@@ -144,7 +144,7 @@ function Validation()
 	
     this.IsDecimal = function(val)
     {
-        if(val == null || val == "" || val == undefined || isNaN(val))
+        if(val == null || val == undefined || isNaN(val))
             return false;
         if(typeof(val) == "number")
         {
